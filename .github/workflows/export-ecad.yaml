@@ -27,15 +27,14 @@ jobs:
         echo "COMMIT = ${COMMIT}"    
         echo "ref: ${{ github.ref }}"
         echo "default: ${{ env.default }}"
-        sed -i "s!<<hash>>!${COMMIT}!" dome_center_pcb.kicad_pcb
+        find . -name '*.kicad_pcb' -exec sed -i "s!<<hash>>!${COMMIT}!" {} \;
 
     - name: Generate Export Files
       uses: INTI-CMNB/KiBot@v2_k8
       with:
           config: .github/workflows/scripts/kibot/config.kibot.yaml
-          schema: dome_center_pcb.kicad_sch
-          board: dome_center_pcb.kicad_pcb
-          dir: dome_center_pcb
+          schema: holo-video-player.kicad_sch
+          board: holo-video-player.kicad_pcb
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
