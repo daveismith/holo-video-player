@@ -32,15 +32,16 @@ jobs:
     - name: Generate Export Files
       uses: INTI-CMNB/KiBot@v2_k8
       with:
-          config: .github/workflows/scripts/kibot/config.kibot.yaml
+          config: .github/workflows/scripts/kibot/config-2layer.kibot.yaml
           schema: holo-video-player.kicad_sch
           board: holo-video-player.kicad_pcb
+          dir: output
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: dome_center_pcb
-        path: dome_center_pcb
+        name: holo-video-player
+        path: output
         if-no-files-found: error
         retention-days: 60
     
