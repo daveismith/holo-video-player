@@ -587,7 +587,7 @@
           "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

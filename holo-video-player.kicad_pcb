@@ -1265,7 +1265,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1293,7 +1293,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C96446"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1527,7 +1527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C126688"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1816,7 +1816,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1844,7 +1844,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3043,7 +3043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C51118"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3650,7 +3650,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3678,7 +3678,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C96446"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
