@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "holo_ring-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/holo_ring-eagle-import.kicad_sym")(options "")(descr ""))
+)

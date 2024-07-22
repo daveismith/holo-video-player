@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "holo_ring")(type "KiCad")(uri "$(KIPRJMOD)/holo_ring.pretty")(options "")(descr ""))
+)

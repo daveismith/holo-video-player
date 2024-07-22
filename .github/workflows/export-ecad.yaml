@@ -44,4 +44,21 @@ jobs:
         path: output
         if-no-files-found: error
         retention-days: 60
-    
+
+    - name: Generate Export Files
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+          config: .github/workflows/scripts/kibot/config-2layer.kibot.yaml
+          schema: holo_ring/holo_ring.kicad_sch
+          board: holo_ring/holo_ring.kicad_pcb
+          dir: output-ring  
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: holo-ring
+        path: output-ring
+        if-no-files-found: error
+        retention-days: 60
+
+

@@ -691,7 +691,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Odd_Even"
-			(at 0.635 13.125 360)
+			(at 0.635 13.125 0)
 			(layer "F.Fab")
 			(uuid "eaef276c-d807-45cb-b2a7-40cb15431de7")
 			(effects
@@ -3297,7 +3297,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(uuid "5ca41c41-7f73-4107-a107-2090e5d4db46")
 			(effects
